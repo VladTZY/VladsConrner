@@ -36,7 +36,7 @@ export default function AdminLogin() {
             href="/"
             className="text-sm font-mono text-stone-400 dark:text-stone-500 hover:text-stone-800 dark:hover:text-stone-200 transition-colors"
           >
-            ← vlad's corner
+            ← vscorner
           </Link>
         </div>
 

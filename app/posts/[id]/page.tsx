@@ -108,7 +108,7 @@ export default async function PostPage({ params }: PostPageProps) {
       </div>
 
       <footer className="mt-24 text-center text-stone-300 dark:text-stone-700 text-xs font-mono pb-8 border-t border-stone-100 dark:border-stone-900 pt-8">
-        <p>vlad's corner &copy; {new Date().getFullYear()}</p>
+        <p>vscorner &copy; {new Date().getFullYear()}</p>
       </footer>
     </main>
   );

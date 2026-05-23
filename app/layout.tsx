@@ -15,7 +15,7 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "vlad's corner | reviews",
+  title: "vscorner | reviews",
   description: "movies, tv, books, and music.",
 };
 

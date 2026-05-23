@@ -32,7 +32,7 @@ export default function Header() {
     <header className="mb-20 flex flex-col md:flex-row md:items-baseline justify-between gap-6">
       <Link href="/" className="group">
         <h1 className="text-xl md:text-2xl font-medium tracking-tight text-stone-900 dark:text-stone-100 group-hover:text-stone-600 dark:group-hover:text-stone-400 transition-colors">
-          vlad's corner
+          vscorner
           <span className="text-stone-400 dark:text-stone-500 font-normal ml-2 text-lg">/ reviews</span>
         </h1>
       </Link>

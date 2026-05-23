@@ -152,7 +152,7 @@ export default async function Home({ searchParams }: HomeProps) {
       </section>
       
       <footer className="mt-24 text-center text-stone-300 dark:text-stone-700 text-xs font-mono">
-        <p>vlad's corner &copy; {new Date().getFullYear()}</p>
+        <p>vscorner &copy; {new Date().getFullYear()}</p>
       </footer>
     </main>
   );

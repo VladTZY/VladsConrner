@@ -113,7 +113,7 @@ export default function AdminDashboard() {
             className="group"
           >
             <h1 className="text-xl md:text-2xl font-medium tracking-tight text-stone-900 dark:text-stone-100 group-hover:text-stone-600 dark:group-hover:text-stone-400 transition-colors">
-              vlad's corner
+              vscorner
               <span className="text-stone-400 dark:text-stone-500 font-normal ml-2 text-lg">
                 / admin
               </span>
@@ -217,7 +217,7 @@ export default function AdminDashboard() {
       </main>
 
       <footer className="max-w-3xl mx-auto px-6 pb-12 w-full text-center text-stone-300 dark:text-stone-700 text-xs font-mono">
-        <p>vlad's corner &copy; {new Date().getFullYear()}</p>
+        <p>vscorner &copy; {new Date().getFullYear()}</p>
       </footer>
 
       {isFormOpen && (
