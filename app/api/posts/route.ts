@@ -3,6 +3,10 @@ import { getAllPosts, createPost } from "@/lib/posts";
 import { isAuthenticated } from "@/lib/auth";
 
 export async function GET(req: NextRequest) {
+  if (!(await isAuthenticated())) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
   const category = req.nextUrl.searchParams.get("category") ?? undefined;
   const posts = getAllPosts(category);
   return NextResponse.json(posts);
